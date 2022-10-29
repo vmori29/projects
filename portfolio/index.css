@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    background-image:url("https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg");
+    background-size: cover;
+}
+
+.imagem-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.Linkedin{
+    padding: 30px 170px;
+    border-radius: 4px;
+    border-color: #242424;
+    background-color: gray;
+}
+
+.github{
+    padding: 30px 175px;
+    border-radius: 4px;
+    border-color: #242424;
+    margin-top: 0.5rem;
+    background-color:gray;
+}
+
+.curriculo{
+    margin-top: 0.5rem;
+    padding: 30px 168px;
+    border-radius: 4px;
+    border-color: #242424;
+    background-color: gray;
+}
+
+.rodape{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 130px;
+    padding-right: 40px;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+i{
+    padding-right: 0.2rem;
+}
+
+button{
+    font-family: 'Poppins' , sans-serif;
+    
+}
+
+
